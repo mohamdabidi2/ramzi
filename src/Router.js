@@ -11,6 +11,7 @@ import SignIn from './Components/Sign/SignIn';
 import SignUp from './Components/Sign/SignUp';
 import Basket from './Components/Basket/Basket';
 import Organisation from './Components/Shop/organisation/organisation';
+import AddPost from './Components/Donate/addpost.js'
 class Router extends Component {
     constructor(props) {
         super(props)
@@ -19,6 +20,7 @@ class Router extends Component {
         return (
             <div>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/Add_post" component={AddPost} />
                 <Route exact path="/Home" component={Home} />
                 <Route exact path="/Organisation" component={Organisation} />
                 <Route path="/About" component={About} />

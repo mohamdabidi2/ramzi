@@ -5,6 +5,28 @@
 {
     margin: 0px ;
 } 
+.thapost{
+    text-align: center;
+    border-radius: 10px;
+    width: 300px
+    ;height: 500px;
+    overflow: scroll;
+    background: #c5c2c2
+}
+.gggbtn{
+    border-bottom: #262626 solid 2px;
+    font-weight: bolder
+}
+.postimg{width: 300px;
+height: 300px;
+border-radius:10px 10px 0 0}
+#mm54{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap
+}
+
 #memea{
     outline: none;
     border:  2px solid #c53b33;

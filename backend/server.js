@@ -20,8 +20,8 @@ app.use(cors());
 
 
 //CREATION DB
-const MongoURL = 'mongodb://localhost:27017';
-const dbName='Ramzi'  
+const MongoURL = 'mongodb+srv://h3xor:794613@devexpe-1i4ix.mongodb.net/test?retryWrites=true';
+const dbName='valnt'  
 
 MongoClient.connect(MongoURL, (err, client) => {
   assert.equal(err, null, "connection failed");

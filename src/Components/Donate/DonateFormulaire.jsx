@@ -37,16 +37,11 @@ class DonateFormulaire extends Component {
         <div id='mm54'>
             {this.state.posts.map((el)=>{
                 return (
-                    <div>
-                        <img src={el.userImage} alt=""/>
-                                <div className=''>
-                           <h1>{el.userName}</h1>
+                    <div className='thapost'>
+                        <img className='postimg' src={el.userImage} alt=""/>
+                                <div className='cont-post'>
+                           <h1 className='gggbtn'>{el.userName}</h1>
                            <p>{el.postText}</p>
-                           <div>
-                               {el.comment.map((az)=>{
-                                   return (<p>{az}</p>)
-                               })}
-                           </div>
                                 </div>
                     </div>
                 )
