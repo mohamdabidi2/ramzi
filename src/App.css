@@ -4,7 +4,13 @@
 .body
 {
     margin: 0px ;
-}
+} 
+#memea{
+    outline: none;
+    border:  2px solid #c53b33;
+    }
+    #mead{ outline: none;
+        border:  2px solid #149b26;}
  .header
 {
 height: 60px;
@@ -571,11 +577,8 @@ text-align: center;
     border: 2px solid #c9cdcf;
     font-family: 'PT Sans', sans-serif;
 }
-.sign-input:focus
-{
-outline: none;
-border:  2px solid #c53b33;
-}
+
+
 .sign-redirect
 {
     margin-bottom: 30px;
