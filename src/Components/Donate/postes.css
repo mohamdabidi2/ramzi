@@ -1,0 +1,64 @@
+.card{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  border-radius: 10px;
+  color: white;
+  width: 50%;
+  
+}
+#mm54{
+  
+}
+
+.mememe{display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center}
+.comments{color: white;
+text-align: center;
+padding-left: 20px;
+padding-right: 20px;
+
+overflow: scroll;
+height: 100px;
+}
+
+.comments>p{border-bottom: red 2px solid;padding-bottom: 20px}
+#img-pae{
+  width: 250px;
+  height:100%;
+  border-radius: 10px 0 0 10px;
+
+}
+.card:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.paragrapth{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  
+
+}
+.post{ display: flex;
+  justify-content: center;
+
+margin: 30px 0}
+.icons{
+  display: flex;
+
+  padding-right: 20px;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.mememememememe{background: rgba(0, 0, 0, 0.24);color: white}
+link{text-decoration: none}
+.vue{
+  display: flex;
+  justify-content: space-around
+}
+.classsss{height: 30px;background: rgba(0, 0, 0, 0.24);
+text-align: center;width: 70%;color: white}
